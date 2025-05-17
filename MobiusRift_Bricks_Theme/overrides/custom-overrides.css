@@ -1,0 +1,58 @@
+/*
+===========================================================
+ MobiusRift Theme: Custom Overrides (CSS)
+-----------------------------------------------------------
+ Purpose: Safely override theme colors, typography, layout.
+ How to use: Uncomment/edit below sections as needed.
+ Markup Ratio: 1:2 (for clarity, onboarding, and futureproofing)
+===========================================================
+*/
+
+/* === COLOR OVERRIDES ====================================
+   Change primary brand color, background, or text color.
+   Safe to edit.
+--------------------------------------------------------- */
+/*
+:root {
+  --color-brand-primary: #6c38c5;  // Brand purple
+  --color-bg-default:    #18181a;  // Main site background
+  --color-text-default:  #e8e8ff;  // Default text color
+}
+*/
+
+/* === TYPOGRAPHY OVERRIDES ===============================
+   Change font family, font sizes, line heights.
+   You may add !important if overriding tokens.
+--------------------------------------------------------- */
+/*
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;    // Set base font size
+  line-height: 1.7;
+}
+*/
+
+/* === LAYOUT OVERRIDES ===================================
+   Custom max width, grid, spacing changes.
+--------------------------------------------------------- */
+/*
+.container {
+  max-width: 1100px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+*/
+
+/* === COMPONENT-SPECIFIC OVERRIDES =======================
+   Use for headers, footers, widgets, etc.
+--------------------------------------------------------- */
+/*
+.site-header {
+  background: var(--color-brand-primary);
+}
+*/
+
+/* === HOW TO ADD MORE OVERRIDES ==========================
+   Just copy/paste and comment every new section.
+========================================================= */
+
