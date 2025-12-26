@@ -1,0 +1,56 @@
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*~
+*.swp
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# Archives
+Archive/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Build and dist
+build/
+dist/
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+
+# Temp
+*.tmp
+*.bak
+
+# Web
+*.min.js
+*.min.css
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/themes/*/node_modules/
+wp-content/plugins/*/node_modules/
